@@ -1,0 +1,18 @@
+Aspekte B2 v0.4.0 — A1 LATEST SYNC QA
+
+Reference checked: Spektrum A1+ v2.4.3.
+
+Static/structural checks:
+- JavaScript syntax (node --check): PASS
+- Full Recall is first/default test mode: PASS
+- Inline Missing Letters helpers and per-letter inputs: PASS
+- Missing-letter answer reconstruction and readiness checks: PASS
+- A1-style floating German keyboard with exactly ä ö ü ß: PASS
+- B2 level branding enforcement: PASS
+- Basic/core exclusion retained: PASS
+- Home learned-state fix retained: PASS
+- Existing B2 vocabulary: 400 entries, 0 missing English meanings, 0 missing Arabic meanings: PASS
+- Service-worker cache bumped to v0.4.0: PASS
+- Existing content/assets unchanged.
+
+Browser automation note: headless Chromium is not usable in this container because its process hangs during container/DBus initialization. JavaScript syntax and structural checks were completed instead.

@@ -1,0 +1,38 @@
+ASPEKTE B1+ v1.4.0 — QA SUMMARY
+
+Vocabulary gap audit
+- Previous bank: 1402 items
+- Added after full-material gap analysis: 150 items
+  - 106 lexical words
+  - 44 high-value Redemittel / phrases
+- Final bank: 1552 items
+  - 1424 words
+  - 128 sentences / phrases
+- Official vocabulary: 792
+- Discovered/material vocabulary: 760
+
+UI parity checks
+- Vocabulary Bank uses the current compact header and toolbar layout.
+- Status-chip summary row removed from the bank header.
+- Initial visible limit: 600 items.
+- Source and Test status filters are separate.
+- Brand level badge: B1+.
+- No A1 / feature-parity wording is displayed in B1 UI.
+
+Vocabulary Testing checks
+- Full recall is the default mode.
+- Missing letters are entered directly inside the word.
+- German letter popup contains ä ö ü ß and inserts into the active missing-letter field.
+- Change mode and End test controls present.
+- Test result summary reports correct, wrong and accuracy.
+- Book discoveries remain opt-in; excluded items remain excluded.
+
+Regression checks
+- app.js syntax: PASS
+- stage3.js syntax: PASS
+- content.js syntax: PASS
+- activities.js syntax: PASS
+- B1 Final Check route: PASS
+- Progress route: PASS
+- Settings route: PASS
+- Existing B1 local-storage key unchanged for progress compatibility.

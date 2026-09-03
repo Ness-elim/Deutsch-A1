@@ -1,0 +1,32 @@
+ASPEKTE B1+ VOCABULARY GAP AUDIT — v1.4.0
+
+Scope scanned
+- Lehrbuch OCR (all available pages)
+- Arbeitsbuch OCR (all available pages)
+- Lehrbuch transcript
+- Redemittel reference
+
+Method
+1. Compared the existing v1.3.0 bank against the full text corpus.
+2. Used dictionary-form matching and frequency as candidate signals.
+3. Manually rejected OCR fragments, proper names, task-instruction boilerplate, duplicate inflections and low-value noise.
+4. Added only useful lexical gaps and high-value B1 Redemittel with English and Arabic meanings.
+5. Newly discovered items remain candidates and do not enter Vocabulary Testing until approved by the learner.
+
+Counts
+- Before audit: 1402 items
+- Added after audit: 150
+  - lexical words: 106
+  - phrases / Redemittel: 44
+- Final bank: 1552 items
+- Official vocabulary: 792
+- Book / material discoveries: 760
+
+Quality rules
+- No names or publisher/photo credits were added.
+- No isolated OCR fragments were added.
+- Inflected forms were consolidated to dictionary forms where possible.
+- Nouns include articles when known.
+- Ordering keeps the course chapter/appearance sequence; Redemittel items are tied to their referenced chapter.
+
+Rejected after page-level verification (not found in integrated course pages): auffallen, das Gesicht, das Messer, entfernen, entlassen, leiten, menschlich, schauen, schmeißen, sich schämen, sich verabschieden, starten, wahnsinnig, wütend

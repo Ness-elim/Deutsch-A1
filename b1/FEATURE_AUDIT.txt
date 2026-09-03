@@ -1,0 +1,36 @@
+Aspekte B1+ v1.4.0 — Feature Audit
+===================================
+
+Validated areas
+---------------
+[PASS] One-exercise-at-a-time chapter study flow
+[PASS] Exercise navigation, active/completed highlighting and Previous/Next
+[PASS] Integrated source visual and Full page access
+[PASS] Full-width answer/writing/speaking work areas
+[PASS] German-letter window: ä ö ü ß
+[PASS] Home dashboard, adaptive plan, streak and 364-day contribution heatmap
+[PASS] Vocabulary Bank with German/English/Arabic search
+[PASS] 792 official vocabulary items + 760 curated Book/material Discovery items
+[PASS] First-appearance ordering across source pages
+[PASS] Vocabulary learning states and Again/Hard/Good review
+[PASS] Vocabulary Testing modes and source/chapter filters
+[PASS] Exclude/restore vocabulary from testing
+[PASS] Grammar Reference across all 10 chapters
+[PASS] B1 Final Check with objective, Writing and Speaking components
+[PASS] Progress, backup/import/reset and optional cloud sync
+[PASS] Audio and reference libraries
+[PASS] Search across Lehrbuch and Arbeitsbuch OCR
+[PASS] Light/dark mode, desktop sidebar and mobile navigation
+[PASS] Existing B1 progress storage retained
+
+v1.4 vocabulary gap audit and UI alignment
+------------------------------------------
+- Rechecked the v1.3 bank against Lehrbuch, Arbeitsbuch, transcript and Redemittel.
+- Added 150 curated gaps: 106 lexical words and 44 high-value Redemittel/phrases.
+- Final bank: 1,552 items (1,424 words + 128 phrases/sentences).
+- Every added item includes English and Arabic meaning plus source metadata.
+- Page-level verification rejects OCR fragments and material that is not present in the integrated study pages.
+- Vocabulary Bank header/toolbar now uses the same current compact layout as the other standalone Spektrum apps.
+- Full recall is the default Vocabulary Testing mode.
+- Missing letters are filled directly inside the word.
+- Level badge is B1+ and B1 UI contains no cross-level development labels.

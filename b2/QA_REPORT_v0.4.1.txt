@@ -1,0 +1,29 @@
+Aspekte B2 v0.4.1 UI parity QA
+
+Checks completed:
+- app.js syntax: PASS (node --check)
+- Home: PASS in DOM harness
+- Chapters: PASS in DOM harness
+- Vocabulary: PASS in DOM harness
+- Vocabulary testing: PASS in DOM harness
+- Final Exam: PASS in DOM harness
+- Audio Library: PASS in DOM harness
+- Reference Library: PASS in DOM harness
+- Search: PASS in DOM harness
+- Progress: PASS in DOM harness
+- Settings: PASS in DOM harness
+- German letters panel created and defaults open on desktop after the v0.4.1 keyboard-key migration: PASS
+- Vocabulary Testing content selector: PASS
+- Full recall default: PASS
+- Missing letters inline: PASS
+- Sentence gap on separate phrase pool: PASS (22 course phrases)
+- Article-only mode remains separate: PASS
+- Test stats now show seen / seen not learned / learned / total: PASS
+- Vocabulary test exclusions are managed from Vocabulary: PASS
+- Bulk exclude/restore for 52 basic/core words: PASS
+- Manual “Add missing word” mechanism: PASS
+- Sidebar wording / complete-source note updated: PASS
+- No user-visible A1 parity labels remain: PASS
+- PWA cache bumped to v0.4.1: PASS
+
+Note: Chromium headless cannot render in this container because its DBus initialization stalls; interactive behavior was therefore tested with a deterministic DOM harness in Node plus syntax/static checks.

@@ -1,0 +1,36 @@
+Aspekte B2 v0.6.0 — QA report
+
+Core checks
+- JavaScript syntax: PASS (node --check app.js)
+- DOM/navigation smoke test: PASS
+- All 10 chapters open with interactive exercise engine
+- 283 exercise cards present; 133 support automatic checking
+- Home and Progress use exercise completion rather than page-opening completion
+
+Vocabulary
+- Curated B2 vocabulary: 400 entries
+- Discovered from book: 1,250 source-derived candidates
+- Combined built-in word bank before manual additions: 1,650 entries
+- Discovered-from-book source filter: PASS
+- Discovered candidates are kept out of Vocabulary Testing until explicitly approved
+- Discovered candidates without a meaning ask for a meaning before test opt-in
+- Manual word addition, source filtering, test-status filtering and core-word exclusion retained
+
+Settings
+- Study display section: PASS
+- Arabic help toggle: PASS
+- Light/dark appearance: PASS
+- Desktop sidebar open/collapsed option: PASS
+- Cloud sync section: present
+- Backup import/export/reset: present
+- App version and content-status sections: present
+
+Final Exam
+- Hard lock removed: PASS
+- Start Final Exam available regardless of current progress: PASS
+- 70% course progress + 20 learned words retained only as readiness guidance
+
+Assets / PWA
+- Referenced image/audio assets missing: 0
+- Service-worker shell files missing: 0
+- Cache namespace updated to Aspekte B2 v0.6.0

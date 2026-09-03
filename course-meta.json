@@ -1,0 +1,34 @@
+{
+  "a1": {
+    "label": "A1+",
+    "method": "Spektrum",
+    "version": "v2.4.3",
+    "totalActivities": 435,
+    "url": "a1/index.html",
+    "storageKey": "spektrum-a1-study-v1"
+  },
+  "a2": {
+    "label": "A2+",
+    "method": "Spektrum",
+    "version": "v1.2.3",
+    "totalActivities": 412,
+    "url": "a2/index.html",
+    "storageKey": "spektrum-a2-study-v1"
+  },
+  "b1": {
+    "label": "B1",
+    "method": "Aspekte",
+    "version": "v1.3",
+    "totalLessons": 30,
+    "url": "b1/index.html",
+    "storageKey": "deutschPathB1AdvancedStateV1"
+  },
+  "b2": {
+    "label": "B2",
+    "method": "Aspekte",
+    "version": "5.2.1",
+    "totalLessons": 47,
+    "url": "b2/index.html",
+    "storageKey": "deutschPathB2UltraStateV1"
+  }
+}

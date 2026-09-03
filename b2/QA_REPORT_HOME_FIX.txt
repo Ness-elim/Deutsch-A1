@@ -1,0 +1,28 @@
+Aspekte B2 Stage 2 v0.3.1 HOME FIX
+
+Issue fixed:
+- Home page crashed because isLearned() referenced LEARNED_STATES before that constant existed.
+
+Fixes:
+- Added explicit learned vocabulary states: confirmed, strong, mastered.
+- Bumped app version to 0.3.1-stage2-homefix.
+- Added cache-busting script versions in index.html.
+- Bumped service-worker cache to v0.3.1.
+- Changed navigation requests in service worker to network-first to reduce stale-shell issues after updates.
+
+Runtime QA:
+- Home: PASS
+- Chapters: PASS
+- Vocabulary Bank: PASS
+- Vocabulary Test: PASS
+- Final Exam: PASS
+- Audio Library: PASS
+- Reference Library: PASS
+- Search: PASS
+- Progress: PASS
+- Settings: PASS
+- Navigate back to Home: PASS
+- Home > View all: PASS
+- Home > Final Exam: PASS
+- Home > Today’s Plan first item opens viewer: PASS
+- JavaScript syntax: PASS

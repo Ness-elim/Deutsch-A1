@@ -1,0 +1,20 @@
+Aspekte B2 Stage 1 — Static QA
+=============================
+Status: PASS
+
+- JavaScript syntax: PASS
+- Chapters: 10
+- Main chapter pages: 160 (source pages 11–170)
+- Appendix pages: 31 (source pages 171–201)
+- Rendered page images present: 191/191
+- Unique supplied MP3 files included: 92/92
+- Chapter-mapped audio tracks: 89 (3 track-01 disc intros remain in Audio Library)
+- Official solution blocks parsed: 283
+  K1 26, K2 29, K3 23, K4 24, K5 29,
+  K6 31, K7 30, K8 32, K9 27, K10 32
+- Transcript chapter chunks: 10/10
+- Independent storage key: aspekte-b2-study-v1
+- Core PWA shell paths verified.
+
+Browser note:
+Automated headless Chromium rendering was not usable in the build container because Chromium hung on container/DBus initialization. Static, path, content, and JavaScript checks passed; normal browser testing can continue in Stage 2 alongside exercise conversion.

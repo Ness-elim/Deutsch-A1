@@ -1,0 +1,36 @@
+Aspekte B2 Stage 2 v0.3.0 — QA REPORT
+=======================================
+
+Static / content checks completed:
+- JavaScript syntax: PASS (node --check)
+- Main navigation routes: 10 (Home, Chapters, Vocabulary Bank, Vocabulary Test, Final Exam, Audio, References, Search, Progress, Settings)
+- Course chapters: 10
+- Main chapter pages: 160
+- Appendix pages: 31
+- Unique supplied MP3 files: 92
+- Official solution blocks: 283
+- Vocabulary entries: 400
+- Vocabulary IDs unique: PASS
+- English meanings present for all 400: PASS
+- Arabic meanings present for all 400: PASS
+- Core/basic flag available for test exclusion: PASS
+- Vocabulary states: New / Seen / Confirmed / Strong / Mastered / Needs review
+- Vocabulary Test modes: Mixed / Full recall / Missing letters / Article
+- Vocabulary Test sources: Seen / Due / Unlearned / Learned / All
+- Chapter filter + Exclude basic/core words: PASS
+- German keyboard in answer fields: PASS
+- 52-week (364-cell) Contribution Heatmap: PASS
+- Contribution areas: 8
+- Daily adaptive plan: PASS
+- Final exam gate: 70% course pages + 20 learned words
+- Final exam objective bank: 40 questions (20 grammar + 20 vocabulary) + saved Writing/Speaking tasks
+- Grammar exam answer positions randomized: PASS
+- Official Prüfungsvorbereitung source page linked: PASS
+- Backup/restore upgraded to vocabulary/test/exam state: PASS
+- Stage 1 local progress migration to Stage 2 storage: PASS
+- Referenced explicit assets missing: 0
+- PWA shell now precaches data/vocabulary.js: PASS
+- ZIP integrity: checked after packaging
+
+Known source limitation:
+The uploaded archive contains the Lehrbuch, transcript, solutions and audio, but no Arbeitsbuch. The app does not fabricate missing Arbeitsbuch material.

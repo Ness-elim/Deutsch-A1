@@ -1,0 +1,20 @@
+Aspekte B2 v0.5.0 — A1-style Exercise Engine
+
+Status: PASS (static checks + deterministic DOM smoke test)
+
+- 283 interactive exercise cards generated from the supplied official Lehrbuch solution set.
+- 133 deterministic cards provide automatic Check answers and row-level feedback.
+- 150 open B2 production/reading tasks provide saved work plus official model/self-check.
+- Chapter default tab is Exercises; Source pages remain available separately.
+- Previous/Next and active exercise highlighting are synchronized.
+- Main course progress is exercise-based, not page-open based.
+- Original Lehrbuch task visual is integrated into every exercise card with a Full page fallback.
+- Opening an exercise marks vocabulary mapped to the same chapter/printed page as seen (once).
+- Existing Vocabulary, Vocabulary testing, contribution heatmap, Final Exam, audio, backup, and independent B2 progress storage are preserved.
+- JavaScript syntax: PASS (app.js and data/exercises.js).
+- Exercise source image paths: PASS (0 missing).
+- Deterministic exercise fields/options: PASS.
+- Navigation/DOM smoke test: PASS across Chapters, Exercises, Home, Vocabulary, Vocabulary testing, Final Exam, Audio, References, Search, Progress, and Settings.
+
+Source limitation:
+The supplied archive contains the Lehrbuch, transcript, solutions, and audio but no Arbeitsbuch. The app does not fabricate Arbeitsbuch pages.

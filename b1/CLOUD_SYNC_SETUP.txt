@@ -1,0 +1,12 @@
+Aspekte B1+ — Optional Google Drive Cloud Sync
+
+1) Go to script.google.com and create a new Apps Script project.
+2) Replace Code.gs with Aspekte_B1_Cloud_Backend_Code.gs from this folder.
+3) Save and deploy as Web app. Execute as: Me. Choose an access setting that allows the separately hosted B1 app to call the endpoint.
+4) Copy the deployed URL ending in /exec.
+5) Open the B1 app -> Settings -> Cloud sync.
+6) Paste the /exec URL. Generate a private sync key or enter your existing B1 sync key.
+7) Click Save & sync.
+8) Repeat steps 5-7 on another device with exactly the same URL + key.
+
+The backend creates/uses a Google Drive folder named "Aspekte B1 Cloud Sync" and stores progress under a SHA-256-derived filename; the private key itself is not used as the Drive filename.

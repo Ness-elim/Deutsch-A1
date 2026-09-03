@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0e6b5c">
+  <title>Spektrum A1+ Study</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell" id="appShell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><div class="brand-mark">S+</div><div class="brand-copy"><strong>Spektrum A1+</strong><small>Personal Study App</small></div></div>
+    <nav id="mainNav">
+      <button class="nav-item active" data-page="home"><span class="nav-icon">⌂</span><span>Home</span></button>
+      <button class="nav-item" data-page="chapters"><span class="nav-icon">▦</span><span>Chapters</span></button>
+      <button class="nav-item" data-page="vocabulary"><span class="nav-icon">Aa</span><span>Vocabulary</span></button>
+      <button class="nav-item" data-page="review"><span class="nav-icon">↻</span><span>Word Review</span></button>
+      <button class="nav-item" data-page="wordtest"><span class="nav-icon">✓</span><span>Vocabulary Testing</span></button>
+      <button class="nav-item" data-page="audio"><span class="nav-icon">♫</span><span>Audio Library</span></button>
+      <button class="nav-item" data-page="exam"><span class="nav-icon">✓</span><span>Start Deutsch 1</span></button>
+      <button class="nav-item" data-page="structures"><span class="nav-icon">§</span><span>Structures</span></button>
+      <button class="nav-item" data-page="search"><span class="nav-icon">⌕</span><span>Search book</span></button>
+      <button class="nav-item" data-page="progress"><span class="nav-icon">▥</span><span>Progress</span></button>
+      <button class="nav-item" data-page="settings"><span class="nav-icon">⚙</span><span>Settings</span></button>
+    </nav>
+    <div class="sidebar-note"><b>Complete source inside</b><p>Every study page is included in the app. Exercise cards keep the original layout as an integrated visual, with an interactive workspace beside it.</p></div>
+  </aside>
+  <div class="menu-backdrop" id="backdrop"></div>
+  <main class="main">
+    <header class="topbar">
+      <button id="menuBtn" class="icon-btn menu-toggle" aria-label="Toggle navigation">☰</button>
+      <div class="title-wrap"><small id="eyebrow">Personal study app</small><h1 id="pageTitle">Home</h1></div>
+      <div class="top-actions"><button id="searchQuick" class="icon-btn" title="Search">⌕</button><button class="streak pending" id="streakPill">🔥 <span id="streakCount">0</span><span class="desktop-only"> day streak</span></button><button id="themeBtn" class="icon-btn" title="Theme">◐</button></div>
+    </header>
+    <section id="pageHost" class="content"></section>
+  </main>
+</div>
+<div class="viewer" id="viewer"><button class="viewer-close" id="viewerClose">×</button><div id="viewerBody"></div></div>
+<script src="data/content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

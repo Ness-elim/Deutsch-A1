@@ -1,0 +1,3 @@
+Aspekte B1+ v1.3.0 update from v1.2.1
+Adds expanded vocabulary (1,402 total) and removes development references to A1 from the visible B1 interface.
+Copy these files over v1.2.1 and replace existing files. Browser progress remains compatible.
